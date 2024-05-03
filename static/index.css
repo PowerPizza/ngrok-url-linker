@@ -1,0 +1,28 @@
+.main_body{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+}
+.entry_url{
+    box-shadow: 0px 0px 4px 2px orange;
+    border: 1px solid blue;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+    height: 30px;
+}
+.entry_url:focus{
+    box-shadow: 0px 0px 4px 2px skyblue;
+}
+
+.save_btn{
+    width: fit-content;
+    font-size: 18px;
+    background-color: rgb(72, 209, 72);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
