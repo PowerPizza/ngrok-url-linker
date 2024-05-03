@@ -19,4 +19,5 @@ def set_url():
     current_url = json.loads(request.data.decode())["url"]
     return "200"
 
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
